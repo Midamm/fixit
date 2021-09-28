@@ -1,0 +1,59 @@
+html {
+    font-size: 16px;
+}
+
+.flex-container {
+    display: flex;
+}
+.card {
+    flex-basis: 100%;
+}
+/* .card + .card {
+    margin-left: 1em;
+} */
+/* .card {
+
+    width: 25%;   
+   } */
+
+.column {
+    width: 50%;
+  }
+
+.menu {
+
+    flex-direction: column;
+    font-size: 12px;
+ }
+
+ .hero.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero.services video {
+    position: absolute;
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+}
+
+.hero.services h1 {
+    position: relative;
+    z-index: 100;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px 30px 30px 30px;
+	margin-left:-30px;
+    margin-right:-30px;
+}
+
+.employee-grid {    
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.partner-grid {
+    
+    grid-template-columns: repeat(2, 1fr);
+}
